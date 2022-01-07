@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Elementos</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/6769393fba293f46aaff035f32208b38.js"></script>
     <script>
-      UnityLoader.instantiate("unityContainer", "Build/2329a3671cdf8a4df3ad0305c1831557.json");
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/7d43de463c8992a576e81ac6d18a4afd.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
-    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Elementos</div>
+      </div>
+    </div>
   </body>
 </html>

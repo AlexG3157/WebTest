@@ -1,0 +1,16 @@
+{
+"companyName": "ElementosWeb",
+"productName": "Elementos",
+"productVersion": "1.0",
+"dataUrl": "3011122efed2f5f27e1c82997d1d64b2.unityweb",
+"wasmCodeUrl": "09c168ff06703599080c574e0feb5156.unityweb",
+"wasmFrameworkUrl": "25688835aadbe7427c04bcbaa092c506.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#40FFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.28f1"
+}
